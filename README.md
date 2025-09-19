@@ -55,14 +55,11 @@ This confusion may stem from the fact that both evolved forms of the same specie
 
 3. Plot training + validation loss and accuracy vs. epochs
 
+![30 epochs](30_epochs.png)
 
+Over the course of 30 epochs, the training loss steadily decreased, indicating that the model was learning from the data. The validation loss also decreased in the early epochs but later started to flatten or slightly increase suggesting a risk of overfitting. 
 
-
-
-
-
-
-Over the course of 30 epochs, the training loss steadily decreased, indicating that the model was learning from the data. The validation loss also decreased in the early epochs but later started to flatten or slightly increase suggesting a risk of overfitting.
+![100 epochs](100_epochs.png)
 Similarly, training accuracy continued to increase, while validation accuracy peaked and plateaued. This shows that the model fits the training data well, but further improvements on validation accuracy may require techniques like data augmentation or dropout.
 I had also tried it with 100 epochs which gave me a different result accordingly. The changes were not as drastic as it was in the last test we had done.
 
