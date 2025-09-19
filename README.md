@@ -48,8 +48,7 @@ Most confused pokemones
 Wartortle mistaken for squirlte 4 times highest
 Pikachu mistaken for Pidgeot 3 times
 
-![CONFUSION MATRIX] (confusion_matrix.png) 
-
+![Confusion Matrix](confusion_matrix.png)
 
 Explanation:
 This confusion may stem from the fact that both evolved forms of the same species line, share similar blue tones, body shapes, and may appear in similar environments in the dataset. These visual similarities could cause the CNN to learn overlapping features and fail to distinguish them effectively.
